@@ -1,0 +1,145 @@
+.home-page {
+  font-family: GlacialIndifference;
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+  background-image: url("../../images/background-image.png");
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px;
+  background-size: cover;
+}
+
+.home-page .home-page-title {
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  color: #294c7c;
+  font-family: "GlacialIndifferenceBold";
+}
+
+.home-page-inner-container {
+  display: flex !important;
+  justify-content: center;
+}
+
+.home-page-admin-card {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  margin-right: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #f8f0e3;
+}
+
+.home-page-customer-card {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  margin-right: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #f8f0e3;
+}
+
+.home-page-inner-container .css-o69gx8-MuiCardMedia-root {
+  object-fit: contain;
+}
+
+.home-page-input {
+  height: 45px;
+  width: 400px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 18px;
+  margin: 20px 0px 12px 0px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.home-page .home-page-input:focus {
+  border-color: #9b59b6;
+}
+
+.admin-col {
+  margin-right: 100px;
+}
+
+.customer-col {
+  margin-left: 100px;
+}
+
+.home-page .home-page-login-button {
+  height: 45px;
+  width: 80%;
+  margin: 45px 0;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  background: #9b59b6;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.home-page .home-page-login-button:hover {
+  background: #71b7e6;
+}
+
+.home-page-text {
+  font-size: 16px;
+  font-family: GlacialIndifference;
+}
+
+.home-page-hyperlink {
+  font-size: 18px;
+  color: #294c7c;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-carousel {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.home-carousel .banner1 {
+  background-image: url("../../images/banner1.jpg");
+  width: 70%;
+  height: 275px;
+  align-content: center;
+}
+
+.home-carousel .banner2 {
+  background-image: url("../../images/banner2.jpeg");
+  width: 70%;
+  height: 275px;
+  align-content: center;
+}
+
+.home-carousel .banner3 {
+  background-image: url("../../images/banner3.jpeg");
+  width: 70%;
+  height: 275px;
+  align-content: center;
+}
+
+.home-carousel .banner4 {
+  background-image: url("../../images/banner4.jpeg");
+  width: 70%;
+  height: 275px;
+  align-content: center;
+}
+
+.home-carousel .banner5 {
+  background-image: url("../../images/banner5.jpeg");
+  width: 70%;
+  height: 275px;
+  align-content: center;
+}
